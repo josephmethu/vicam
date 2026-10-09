@@ -6,7 +6,10 @@ __pycache__/
 .pytest_cache/
 *.pyc
 *.sqlite3*
+
 node_modules/
+
+# Private signing credentials must never enter source control.
 *.p12
 *.pfx
 *.key
